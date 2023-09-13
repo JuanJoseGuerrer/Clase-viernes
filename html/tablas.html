@@ -4,54 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eliminatorias</title>
+    <title>Etiquetas de tablas</title>
 </head>
 
 <body>
     <a href="../index.html"> <h2> Volver atras </h2></a>
-    <table border ="1" > 
-        <caption> Tabla de posiciones </caption>
+    <hr>
+    <table border ="1" > <!-- table, Etiqueta contenedora que tendrá en su interior toda la tabla.-->
+        <caption> Tabla de Campeones </caption>
         <thead>
         </thead>
         <tbody>
 
             <tr>
-                <th> Seleccion/equipo </th>
-                <th> Partidos  </th>
-                <th> puntos </th>
-                <th> escudo </th>
+                <th> Mundiales ganados </th>
+                <th> Seleccion </th>
+                <th colspan="5"> año </th>
+                <th> Escudo </th>
+                
             </tr>
             <tr>
-                <td> Colombia</td>
-                <td > 3  </td>
-                <td> 9  </td>
-
-                <td bgcolor="yellow"><a title="Colombia" href="https://es.wikipedia.org/wiki/Selecci%C3%B3n_de_f%C3%BAtbol_de_Colombia"> <img src="../img/colombia.png" width="90" height="85"> </td></a>
-
-            </tr>
-            <tr>
+                <td> 5 mundiales </td>
                 <td> Brasil </td>
-                <td> 3  </td>
-                <td> 7  </td>
-                <td bgcolor="green"> <a title="Brasil" href="https://es.wikipedia.org/wiki/Selecci%C3%B3n_de_f%C3%BAtbol_de_Brasil"><img src="../img/brasil.png" width="95" height="95"> </td></a>
+                <td> 1958 </td>
+                <td> 1962 </td>
+                <td> 1970 </td>
+                <td> 1994 </td>
+                <td> 2002</td>
+                <td><img src="../multimedia(recursos)/banBrasil.png" width="80" height="65"> </td>
             </tr>
             <tr>
+                <td rowspan="2"> 4 mundiales </td>
+                <td> Alemania </td>
+                <td> 1954 </td>
+                <td> 1974 </td>
+                <td> 1990 </td>
+                <td colspan="2"> 2014 </td>
+                <td><img src="../multimedia(recursos)/banAlemania.png" width="80" height="70" > </td>
+            </tr>
+            <tr>
+                <td> Italia </td>
+                <td> 1934 </td>
+                <td> 1938 </td>
+                <td> 1982 </td>
+                <td colspan="2"> 2006 </td>
+                <td><img src="../multimedia(recursos)/banItalia.png" width="80" height="68"> </td>
+            </tr>
+            <tr>
+                <td> 3 mundiales</td>
                 <td> Argentina </td>
-                <td> 3  </td>
-                <td> 7  </td>
-                <td bgcolor="cyan"> <a title="Argentina" href="https://es.wikipedia.org/wiki/Selecci%C3%B3n_de_f%C3%BAtbol_de_Argentina" ><img src="../img/argentina.png" width="85" height="95" > </td> </a>
+                <td> 1978 </td>
+                <td> 1986 </td>
+                <td colspan="3"> 2022 </td>
+                <td> <img src="../multimedia(recursos)/banArgentina.jpg" width="80" height="70"></td>
+                
+            </tr>
+            <tr> 
+                <td rowspan="2"> 2 mundiales </td>
+                <td> Francia </td>
+                <td> 1998 </td>
+                <td colspan="4"> 2018 </td>
+                <td> <img src="../multimedia(recursos)/banFrancia.png" width="80" height="70"></td>
+            </tr>
+            <tr> 
+                <td> Uruguay</td>
+                <td> 1930 </td>
+                <td colspan="4"> 1950 </td>
+                <td> <img src="../multimedia(recursos)/banUruguay.png" width="80" height="75"></td>
             </tr>
             <tr>
-                <td> Uruguay </td>
-                <td> 3  </td>
-                <td> 6  </td>
-                <td bgcolor="blue"> <a title="Uruguay" href="https://es.wikipedia.org/wiki/Selecci%C3%B3n_de_f%C3%BAtbol_de_Uruguay"> <img src="../img/uruguay.png" width="100" height="100"> </td> </a>
+                <td rowspan="2"> 1 mundial </td>
+                <td> España </td>
+                <td colspan="5"> 2010 </td>
+                <td> <img src="../multimedia(recursos)/banEspaña.png" width="80" height="65"></td>
+            </tr>
+            <tr>
+                <td> Inglaterra</td>
+                <td colspan="5"> 1966 </td>
+                <td> <img src="../multimedia(recursos)/banInglaterra.png" width="80" height="65"></td>
             </tr>
         </tbody>
         <tfoot>
             <tr>
-                <td colspan = "4" align="center">
-                    Eliminatorias Mundial 2026
+                <td colspan = "8" align="center">
+                    Proximo Mundial 2026
                 </td>
             </tr>
         </tfoot>
