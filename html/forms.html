@@ -1,31 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <a href="../index.html"> <h2> Volver atras</h2> </a>
+    <a href="../index.html"> <h2> Volver atras </h2></a>
+    <hr>
     <!-- primer formulario -->
+    <h2> Registrate en el sistema </h2>
     <form action="" id="info_personal">
         <fieldset> 
-            <legend> Info personal </legend>
-            <label for=""> Nombre:</label>
-            <input type="text">
-            <label for=""> Apellidos </label>
+            <legend> informacion personal </legend>
+            <br>
+            <label for=""> Nombre</label>
+            <input type="text" >
+            <label for=""> Apellidos</label>
             <input type="text">
             <br>
-            <label for=""> Contraseña</label>
-            <input type="password">
             <br>
             <label for="">Fecha de nacimiento</label>
             <input type="date">
-            <br><input type="color" name="" id="">
-            <br><input type="number" name="" id="">
-            <br><input type="file">
-
+            <label for=""> telefono</label>
+            <input type="tel">
+            <br><br>
+            <label for=""> Foto de perfil </label>
+            <input type="file">
+            <label> numero favorito </label>
+            <input type="number" min="1" max="99">
+            <br><br>
+            <textarea> Escribe una descripcion </textarea>
         </fieldset>
+
+        <fieldset>
+            <legend> informacion de cuenta </legend>
+            <label for=""> Email </label>
+            <input type="email" placeholder="example@">
+            <label for=""> Contraseña</label>
+            <input type="password" placeholder="min 8 caracter">
+            <label> Confirmar contraseña </label>
+            <input type="password" placeholder="min 8 caracter">
+        </fieldset>
+
+        <fieldset>
+            <legend> Personalizacion de tu pagina</legend>
+            <label for=""> color de fondo</label>
+            <input type="color" name="" id="">
+            <label for=""> Url</label>
+            <input type="url">
+            <label> brillo</label>
+            <input type="range">
+            <label> Tienes tu pagina activa </label>
+            <input type="radio">
+            <label> Elige en que esta enfocada tu pagina</label>
+            <select> 
+                <option> otros </option>
+                <option> blog personal </option>
+                <option> formulario </option>
+                <option> juegos </option> 
+            </select>
+            
+
+
+            
+        </fieldset>
+        <hr>
+        <input type="submit">
+        <input type="reset">
+        <br><br><br> 
+        <input type="time">
+        <meter min="0" max="100" value="75"
+         low="25" high="75" optimum="100">
     </form>
 </body>
 </html>
