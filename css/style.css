@@ -1,0 +1,41 @@
+/* selector universal */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+header{
+    background-color: rgb(30, 32, 34);
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* selector por id (#)*/
+#word_one{
+    font-size: 30px;
+    color: purple;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+/*selector por clase (.)*/
+
+.word_group{
+    background-color:aliceblue;
+    color:rgb(28, 61, 51);
+    margin: 10px;
+    font-weight: 900;
+}
+
+#list_option{
+    border: 5px solid rgb(255, 0, 98);
+    margin: 10px;
+    border-radius: 10px;
+}
+.word_group:hover{
+    background-color: rgb(219, 109, 212);
+}
