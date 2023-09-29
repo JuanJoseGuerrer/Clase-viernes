@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    div#father{
+        /*
+        height: 100vh;
+        display: grid;
+        place-items: center; */
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    div#son, #son_one, #son_two, #son_three{
+        height: 150px;
+        width: 150px;
+        background-color: rgb(29, 28, 28);
+        border-radius: 10px;
+        
+
+    }
+
+    #son{
+        background-color: rgb(146, 98, 36);
+        transform: skew(-5deg, -10deg);
+    }
+    #son_one{
+        background-color: aquamarine;
+        transform: translate(-5px, -10px);
+        border-radius: 50%;
+        
+    }
+    #son_two{
+        background-color: aqua;
+        transform: scale(1.2);
+
+    }
+    #son_three{
+        background-color: brown;
+    }
+    
+    </style>
+</head>
+<body>
+    <div id="father"> 
+        <div id="son"></div>
+        <div id="son_one"></div>
+        <div id="son_two"></div>
+        <div id="son_three"></div>
+    </div>
+    
+</body>
+</html>
