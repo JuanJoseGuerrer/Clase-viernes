@@ -4,20 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practica de etiquetas</title>
+    <link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body>
-    <div>
-        <ul>
-            <li> <a href ="html/tablas.html"> <h2> ir a tablas</h2> </a> </li>
-            <li> <a href ="html/forms.html"> <h2> ir a form  </h2> </a> </li>
-            <li> <a href ="html/texto.html"> <h2> ir a texto  </h2> </a> </li>
-            <li> <a href ="html/semanticas.html"> <h2> ir a semanticas </h2> </a> </li>
-            <li> <a href ="html/agrupacion.html"> <h2> ir a agrupacion</h2> </a> </li>
-            <li> <a href ="html/multimedia.html"> <h2> ir a multimedia</h2> </a> </li>
-            <li> <a href="html/estilos.html"> <h2> Ir a estilos </h2> </a></li>
-        </ul>
-    </div>
-
     
+    <div class="background"></div>
+    <div class="centering">
+        <form action="" class="my_form">
+            <div class="login_welcome">
+            <img src="https://img.freepik.com/vector-gratis/astronauta-dabbing-cartoon-vector-icon-illustration-concepto-icono-tecnologia-ciencia-aislado-vector-premium-estilo-dibujos-animados-plana_138676-3360.jpg" alt="" class="login">
+            <h1> iniciar sesion </h1>
+            </div>
+            <div class="text_field"> 
+                <label for="">Email </label>
+                <input type="email" id="email " aria-label="email" placeholder="ingrese su email">
+                <img src="https://www.svgrepo.com/download/14478/email.svg" alt="email icon" title="email icon">
+            </div>
+            <div class="text_field"> 
+                <label for="password">password </label>
+                <input type="password" id="password " aria-label="password" placeholder="ingrese su contraseña">
+                <img src="https://www.svgrepo.com/show/84319/password.svg" alt="password icon" title="password icon">
+            </div>
+            <input type="submit" class="my_form_button " value="login">
+            <div class="my_form_action ">
+                    <div class="my_form_row">
+                    <span> ¿Olvidaste tu contraseña?</span>
+                    <a href="#" title="recuperar contraseña"> recuperar contraseña</a>
+                </div>
+            </div>
+            <div class="my_form_"> </div>
+
+        </form> 
+    </div>
 </body>
 </html>
